@@ -1,0 +1,91 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Roy
+    last_name: Mora Mora
+    
+    # Define yourself in 4-5 words
+    motto: Muy Ctreativo e innovador
+    
+    # focus
+    focus: Seguir mejorando Como Profecional
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+     Programador de Páginas WEB experto en Front End, UX / UI, HTML 5, CSS3, SASS, Bootstrap con experiencia en JavaScript, JQuery, Gulp, Responsive Web Desing, Wordpress y manejo de eCommerce. Con gran competencia en analítica SEO, regulación de la W3C y múltiples herramientas de análisis WEB incluyendo Google Analitics y mapas de calor.Con gran creatividad y originalidad. Enfocado a resultados y cumplimiento de metas. Amplia experiencia en Diseño Gráfico, experto en el uso de herramientas de diseño y edición como ILLUSTRATOR, PHOTOSHOP,
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/profile-images/roy2.jpg
+
+    # Contact Information
+    email: rmoramo1@gmail.com #optional
+    phone: 234 2342 342 #optional
+    website: http://roymoramora.fractalescr.com/ #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/rmoramo1
+    
+    twitter: '' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Inglish
+        level: basico
+
+    # Interests or hobies
+    interests:
+      - item: Guitarra
+
+      - item: Musica
+
+      - item: Dibujar
+
+# Your previous education
+education:
+    - degree: Programación de páginas WEB
+      university: INA
+      # optional
+      time: 2015
+      details: Tecnico en programación de paginas web 
+    
+# Your previous job experiences or voluntier
+experiences:
+    - role: Diseñador WEB y Diseñador Gráfico
+      time: 2018 - 2019
+      company: SVivatusTrading
+      # optional
+      details: |
+                Encargado del diseño y programación FRONT-END de los diversos proyectos,
+                encargado del diseño gráfico de la empresa, incluyendo diseño de marca de la
+                misma, diseño de logo�pos de los diferentes proyectos y todo lo concerniente
+                a UI/UX de los proyectos así como el cumplimiento de los estándares para el
+                SEO. 
+skills:
+    toolset:
+      - name: Illustrator
+        level: 98%
+      
+      - name: Photoshop
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 40%
+
+      - name: HTML5 & CSS
+        level: 95%
